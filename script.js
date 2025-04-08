@@ -38,4 +38,8 @@ paginationbtn.forEach((btn , index)=>{
     })
 })
 
+setInterval(() => {
+    nextslide();
+}, 5000);
+
 setslides();
